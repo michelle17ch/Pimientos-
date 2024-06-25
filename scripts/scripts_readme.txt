@@ -3,6 +3,10 @@
 1. Preparación de los datos 
 # Descargar las secuencias en formato FASTA desde la NCBI 
 # Realizar un alineamiento con el programa Muscle
+#Navegar hasta el directorio de Muscle 
+cd /path/to/muscle
+# Ejecutar muscle 
+./muscle -in input.fasta -out output.fasta
 # Guardar el archivo formato FASTA
 
 2. Realizar el árbol 
